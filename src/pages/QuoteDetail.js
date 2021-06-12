@@ -11,7 +11,6 @@ const QuoteDetail = props => {
   const params = useParams()
   const { quoteId } = params
   const { sendRequest, status, data: loadedQuote, error } = useHttp(getSingleQuote, true)
-
   useEffect(() => {
     sendRequest(quoteId)
   }, [sendRequest, quoteId])
@@ -26,9 +25,9 @@ const QuoteDetail = props => {
     return <p className='centered'>{error}</p>
   }
 
-  if (!loadedQuote.text) {
-    return <p className='centered'>No quote found</p>
-  }
+  // if (!text) {
+  //   return <p className='centered'>No quote found</p>
+  // }
 
   return (
     <>
