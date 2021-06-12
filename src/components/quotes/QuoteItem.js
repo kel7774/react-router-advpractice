@@ -1,4 +1,4 @@
-import classes from './QuoteItem.module.css';
+import classes from './QuoteItem.module.css'
 
 const QuoteItem = (props) => {
   return (
@@ -13,7 +13,7 @@ const QuoteItem = (props) => {
         View Fullscreen
       </a>
     </li>
-  );
-};
+  )
+}
 
-export default QuoteItem;
+export default QuoteItem

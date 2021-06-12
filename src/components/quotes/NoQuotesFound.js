@@ -1,4 +1,4 @@
-import classes from './NoQuotesFound.module.css';
+import classes from './NoQuotesFound.module.css'
 
 const NoQuotesFound = () => {
   return (
@@ -8,7 +8,7 @@ const NoQuotesFound = () => {
         Add a Quote
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default NoQuotesFound;
+export default NoQuotesFound
